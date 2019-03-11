@@ -12,17 +12,6 @@
 	  <tag>HEAD</tag>
   </scm>
 
-	
-	<reporting>
-		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>findbugs-maven-plugin</artifactId>
-				<version>3.0.4</version>
-				
-			</plugin>
-		</plugins>
-	</reporting>
 
 	<build>
 		<!-- <sourceDirectory>src</sourceDirectory> <resources> <resource> <directory>src</directory> 
