@@ -12,20 +12,7 @@
 	  <tag>HEAD</tag>
   </scm>
 
-	 <distributionManagement>
-   <!-- use the following if you're not using a snapshot version. -->
-   <repository>
-     <id>central</id>
-     <name>central</name>
-     <url>http://192.168.0.37:8081/artifactory/ext-release-local</url>
-   </repository>
-	<snapshotRepository>
-          <id>snapshots</id>
-          <name>libs-snapshot-local</name>
-          <url>http://192.168.0.37:8081/artifactory/ext-snapshot-local</url>
-        </snapshotRepository>
 	
- </distributionManagement>
 	<reporting>
 		<plugins>
 			<plugin>
